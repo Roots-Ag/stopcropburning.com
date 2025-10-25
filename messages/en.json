@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "problems": "Problems",
+    "solutions": "Solutions",
+    "about": "About"
+  },
+  "home": {
+    "hero": {
+      "title": "Stop Crop Burning",
+      "subtitle": "Building a sustainable future for agriculture",
+      "description": "Crop burning causes severe air pollution, health issues, and soil degradation. Discover practical solutions that benefit both farmers and the environment.",
+      "cta": "Explore Solutions",
+      "learnMore": "Learn More"
+    },
+    "problems": {
+      "title": "The Problems We Face",
+      "subtitle": "Understanding the impact of crop burning"
+    },
+    "solutions": {
+      "title": "Sustainable Solutions",
+      "subtitle": "Practical alternatives that work for farmers"
+    },
+    "categories": {
+      "agricultural": "Agricultural Practice",
+      "technology": "Technology",
+      "policy": "Policy",
+      "economic": "Economic"
+    }
+  },
+  "footer": {
+    "tagline": "Together, we can create a cleaner, healthier future",
+    "rights": "All rights reserved"
+  }
+}
