@@ -35,7 +35,7 @@ export default function Header() {
 
           <Link
             href={`/${otherLocale}`}
-            className="px-3 py-1 rounded-md bg-gray-100 hover:bg-gray-200 transition-colors text-sm font-medium"
+            className="px-3 py-1 rounded-md bg-green-100 text-green-700 hover:bg-green-200 transition-colors text-sm font-medium"
           >
             {localeNames[otherLocale]}
           </Link>
