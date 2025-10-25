@@ -6,6 +6,7 @@ import SolutionCard from '@/components/SolutionCard';
 import { client } from '@/lib/sanity/client';
 import { problemsQuery, solutionsQuery } from '@/lib/sanity/queries';
 import PageContent from '@/components/PageContent';
+import { locales } from '@/lib/i18n/config';
 
 // Mock data for development (before Sanity is set up)
 const mockProblems = [
@@ -108,6 +109,10 @@ const mockSolutions = [
     order: 4
   }
 ];
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export default async function HomePage({
   params,
